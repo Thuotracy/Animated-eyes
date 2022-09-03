@@ -15,7 +15,7 @@ body{
     display: flex;
 }
 
-.box eye{
+.box .eye{
     position: relative;
     width: 120px;
     height: 120px;
@@ -24,6 +24,21 @@ body{
     margin: 0 20px;
     border-radius: 50%;
     box-shadow: 0 5px 45px rgba(0, 0, 0, 0.2),
-                inset 0 0 15px #f2761e,
-                inset 0 0 25px #f2761e;
+                inset 0 0 15px rgb(168, 66, 168),
+                inset 0 0 25px rgb(168, 66, 168);
 }
+
+.box .eye::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #000;
+    border: 10px solid rgb(124, 59, 18);
+    box-sizing: border-box;
+}
+
