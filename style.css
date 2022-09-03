@@ -10,3 +10,7 @@ body{
     min-height: 100vh;
     background: radial-gradient(rgb(168, 66, 168),rgb(219, 73, 97));
 }
+
+.box{
+    display: flex;
+}
