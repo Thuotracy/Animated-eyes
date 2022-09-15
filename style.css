@@ -28,7 +28,7 @@ body{
                 inset 0 0 25px rgb(168, 66, 168);
 }
 
-.box .eye::before{
+.boxs .eye::before{
     content: '';
     position: absolute;
     top: 50%;
