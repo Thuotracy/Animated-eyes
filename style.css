@@ -11,11 +11,11 @@ body{
     background: radial-gradient(rgb(168, 66, 168),rgb(219, 73, 97));
 }
 
-.box{
+.boxs{
     display: flex;
 }
 
-.box .eye{
+.boxs .eye{
     position: relative;
     width: 120px;
     height: 120px;
